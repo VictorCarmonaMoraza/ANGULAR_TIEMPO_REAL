@@ -24,8 +24,6 @@ export class WebsocketService {
       this.socketStatus = false;
     });
   }
-<<<<<<< Updated upstream
-=======
 
 
   emitir(evento: string, payload?: any, callback?: Function) {
@@ -33,5 +31,4 @@ export class WebsocketService {
       //Emitimos o disparamos un evento hacia el servidor
       this.socket.emit(evento, payload, callback);
   }
->>>>>>> Stashed changes
 }
